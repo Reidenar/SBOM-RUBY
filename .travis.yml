@@ -1,6 +1,8 @@
 os: linux
 dist: focal
 language: ruby
+rvm:
+ - 2.7.3
 jobs:
  include: 
  - name: “test” # existing functionality
